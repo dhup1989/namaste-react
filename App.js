@@ -13,10 +13,12 @@ const Title = () => {
 // React Functional component: It is normal java script function
 // Component composition: Component inside component
 // Here Title component inside HeadingComponent
+const number = 1000;
 const HeadingComponent = () => {
   return (
     <div id="container">
       <Title />
+      {heading}
       <h1 className="heading">Namaste react functional component</h1>
     </div>
   );
